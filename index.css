@@ -51,7 +51,7 @@
 }
 
 #container3{
-    height:50vw;
+    height:60vw;
     width:100%;
     
     position:relative;
@@ -59,7 +59,7 @@
 }
 #container3::before{
     content: '';
-    background-image: url(BG.png);
+    background-image: url(BGLarge.png);
     background-repeat: no-repeat;
     background-size: 100%;
     opacity:0.4;
@@ -67,19 +67,20 @@
     top: 0px;
     bottom: 0px;
     right: 0px;
-    left: 0px;
+    left:0px;
+
 
 }
 
 
 #poss{
     position:absolute;
-    left: 12.5%;
+    left:5.5%;
     top: 5%;
     font-weight: bold;
     font-size: 2vw;
-    height:39vw;
-    width:75%;
+    height:55vw;
+    width:85%;
     opacity: 1;
 
 
