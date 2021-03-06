@@ -51,7 +51,7 @@
 }
 
 #container3{
-    height:60vw;
+    height:65vw;
     width:100%;
     
     position:relative;
@@ -61,7 +61,7 @@
     content: '';
     background-image: url(BGLarge.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     opacity:0.4;
     position:absolute;
     top: 0px;
