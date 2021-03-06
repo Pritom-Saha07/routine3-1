@@ -18,7 +18,7 @@ function set(){
    m1=t.getMinutes();
    d=t.getDate();
    switch(d){
-      case 5:{
+      case 6:{
          if((h1==8&&m1>=50)||(h1==9&&m1<50)){
             if (x==1){
                sat2.style.backgroundColor="yellow";
