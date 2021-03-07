@@ -46,7 +46,7 @@ function set(){
                x=1;
             }
          }
-         else if(h1>=2&&h1<5){
+         else if(h1>=14&&h1<17){
             if (x==1){
                sat4.style.backgroundColor="yellow";
                x=0;}
@@ -57,7 +57,7 @@ function set(){
          }
          break;
       }
-      case 0:{
+      case 7:{
          if((h1==8&&m1>=50)||(h1==9&&m1<50)){
             if (x==1){
                sun1.style.backgroundColor="yellow";
@@ -85,7 +85,7 @@ function set(){
                x=1;
             }
          }
-         else if(h1>=2&&h1<5){
+         else if(h1>=14&&h1<17){
             if (x==1){
                sun4.style.backgroundColor="yellow";
                x=0;}
@@ -154,7 +154,7 @@ function set(){
                x=1;
             }
          }
-         else if(h1>=2&&h1<5){
+         else if(h1>=14&&h1<17){
             if (x==1){
                tue4.style.backgroundColor="yellow";
                x=0;}
@@ -193,7 +193,7 @@ function set(){
                x=1;
             }
          }
-         else if(h1>=11&&h1<2){
+         else if(h1>=11&&h1<14){
             if (x==1){
                sat4.style.backgroundColor="yellow";
                x=0;}
