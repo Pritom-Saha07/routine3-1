@@ -16,7 +16,7 @@ function set(){
    t=new Date();
    h1=t.getHours();
    m1=t.getMinutes();
-   d=t.getDate();
+   d=t.getDay();
    switch(d){
       case 6:{
          if((h1==8&&m1>=50)||(h1==9&&m1<50)){
@@ -57,7 +57,7 @@ function set(){
          }
          break;
       }
-      case 7:{
+      case 0:{
          if((h1==8&&m1>=50)||(h1==9&&m1<50)){
             if (x==1){
                sun1.style.backgroundColor="yellow";
