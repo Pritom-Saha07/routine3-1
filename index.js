@@ -195,10 +195,10 @@ function set(){
          }
          else if(h1>=11&&h1<14){
             if (x==1){
-               sat4.style.backgroundColor="yellow";
+               wed4.style.backgroundColor="yellow";
                x=0;}
             else{
-               sat4.style.backgroundColor="red";
+               wed4.style.backgroundColor="red";
                x=1;
             }
          }
@@ -211,5 +211,6 @@ function set(){
    }
 }
 setInterval(set,1000)
+
 
 
