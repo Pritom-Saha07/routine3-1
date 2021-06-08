@@ -132,3 +132,7 @@ td a{
     text-decoration: none;
     color: black;
 }
+
+#sat1,#sat2,#sat3,#sat4,#sun1,#sun2,#sun3,#sun4,#mon1,#mon2,#mon3,#tue1,#tue2,#tue3,#tue4,#wed1,#wed2,#wed3,#wed4{
+    transition: 1s;
+}
