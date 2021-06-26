@@ -137,3 +137,10 @@ td a{
     transition: 1s;
     text-align: center;
 }
+.update{
+    color: blanchedalmond;
+    position: absolute;
+    font-size: 20px;
+    bottom:0%;
+    right:0%;
+}
