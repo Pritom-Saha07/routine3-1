@@ -140,7 +140,7 @@ td a{
 .update{
     color: blanchedalmond;
     position: absolute;
-    font-size: 20px;
+    font-size: 1vw;
     bottom:0%;
     right:0%;
 }
