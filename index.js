@@ -97,7 +97,7 @@ function set(){
          break;
       }
       case 1:{
-         if((h1==8&&m1>=50)||(h1==9&&m1<50)){
+         if((h1==9&&m1>=50)||(h1==10&&m1<50)){
             if (x==1){
                mon2.style.backgroundColor="yellow";
                x=0;}
@@ -106,7 +106,7 @@ function set(){
                x=1;
             }
          }
-         else if((h1==9&&m1>=50)||(h1==10&&m1<50)){
+         else if((h1==10&&m1>=50)||(h1==11&&m1<50)){
             if (x==1){
                mon3.style.backgroundColor="yellow";
                x=0;}
@@ -115,7 +115,16 @@ function set(){
                x=1;
             }
          }
-         else if((h1==7&&m1>=50)||(h1==8&&m1<50)){
+         else if((h1==11&&m1>=50)||(h1==12&&m1<50)){
+            if (x==1){
+               mon4.style.backgroundColor="yellow";
+               x=0;}
+            else{
+               mon4.style.backgroundColor="red";
+               x=1;
+            }
+         }
+         else if((h1==8&&m1>=50)||(h1==9&&m1<50)){
             if (x==1){
                mon1.style.backgroundColor="yellow";
                x=0;}
@@ -145,7 +154,7 @@ function set(){
                x=1;
             }
          }
-         else if((h1==10&&m1>=50)||(h1==11&&m1<50)){
+         else if((h1==10&&m1>=50)||(h1==13&&m1<50)){
             if (x==1){
                tue3.style.backgroundColor="yellow";
                x=0;}
@@ -154,37 +163,10 @@ function set(){
                x=1;
             }
          }
-         else if(h1>=14&&h1<17){
-            if (x==1){
-               tue4.style.backgroundColor="yellow";
-               x=0;}
-            else{
-               tue4.style.backgroundColor="red";
-               x=1;
-            }
-         }
          break;
       }
       case 3:{
          if((h1==8&&m1>=50)||(h1==9&&m1<50)){
-            if (x==1){
-               wed2.style.backgroundColor="yellow";
-               x=0;}
-            else{
-               wed2.style.backgroundColor="red";
-               x=1;
-            }
-         }
-         else if((h1==9&&m1>=50)||(h1==10&&m1<50)){
-            if (x==1){
-               wed3.style.backgroundColor="yellow";
-               x=0;}
-            else{
-               wed3.style.backgroundColor="red";
-               x=1;
-            }
-         }
-         else if((h1==7&&m1>=50)||(h1==8&&m1<50)){
             if (x==1){
                wed1.style.backgroundColor="yellow";
                x=0;}
@@ -193,12 +175,21 @@ function set(){
                x=1;
             }
          }
-         else if(h1>=11&&h1<14){
+         else if((h1==9&&m1>=50)||(h1==10&&m1<50)){
             if (x==1){
-               wed4.style.backgroundColor="yellow";
+               wed2.style.backgroundColor="yellow";
                x=0;}
             else{
-               wed4.style.backgroundColor="red";
+               wed2.style.backgroundColor="red";
+               x=1;
+            }
+         }
+         else if((h1==10&&m1>=50)||(h1==11&&m1<50)){
+            if (x==1){
+               wed3.style.backgroundColor="yellow";
+               x=0;}
+            else{
+               wed3.style.backgroundColor="red";
                x=1;
             }
          }
