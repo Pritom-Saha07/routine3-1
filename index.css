@@ -137,6 +137,12 @@ td a{
     transition: 1s;
     text-align: center;
 }
+
+#container5 a{
+    text-decoration: none;
+    color: white;
+}
+
 .update{
     color: blanchedalmond;
     position: absolute;
@@ -145,7 +151,3 @@ td a{
     right:0%;
 }
 
-#container5 a{
-    text-decoration: none;
-    color: white;
-}
