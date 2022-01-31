@@ -133,7 +133,7 @@ td a{
     color: black;
 }
 
-#sat1,#sat2,#sat3,#sat4,#sun1,#sun2,#sun3,#sun4,#mon1,#mon2,#mon3,#mon4,#tue1,#tue2,#tue3,#wed1,#wed2,#wed3{
+#sat1,#sat2,#sat3,#sat4,#sun1,#sun2,#sun3,#sun4,#mon1,#mon2,#mon3,#mon4,#tue1,#tue2,#tue3,#wed1,#wed2,#wed3,#wed4{
     transition: 1s;
     text-align: center;
 }
@@ -143,4 +143,9 @@ td a{
     font-size: 1vw;
     bottom:0%;
     right:0%;
+}
+
+#container5 a{
+    text-decoration: none;
+    color: white;
 }
