@@ -193,6 +193,15 @@ function set(){
                x=1;
             }
          }
+         else if((h1==11&&m1>=50)||(h1==12&&m1<50)){
+            if (x==1){
+               wed4.style.backgroundColor="yellow";
+               x=0;}
+            else{
+               wed4.style.backgroundColor="red";
+               x=1;
+            }
+         }
          break;
       }
       default:{
